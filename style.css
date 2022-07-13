@@ -1,0 +1,65 @@
+body{
+    background-image: url("https://previews.123rf.com/images/guykantawan/guykantawan1608/guykantawan160800102/63730579-pastel-clouds-background-texture-made-with-color-filters-unfocused.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    width: 20%;
+    height: 9%;
+    font-style: italic;
+    font-family: 'Rampart One', cursive;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.btn-warning {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-warning:hover {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-warning:focus {
+    outline: none;
+}
+
+canvas{
+    margin-top: 10%;
+    border: 2px black solid;
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 500px;
+    margin-right: 50px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    
+    float: left;
+}
+
+canvas:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
